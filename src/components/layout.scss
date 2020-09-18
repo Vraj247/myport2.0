@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+a {
+    text-decoration: none;
+    color: #28281F;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #F96E46;
+    transition-delay: .25ms;
+  
+}
+
+a.Paytm-link {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+    
+
+body 
+{
+    font-family: 'Inter', sans-serif;
+    background-color: #fafafa;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container
+{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+
+.main-title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #28281F;
+    font-weight: 600;
+}
+
+
+.nav-styles
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    justify-content: space-between;
+    align-items: center;
+    
+    h3
+    {
+        font-size: 16px;
+        font-weight: 400;
+        color: #28281F;
+    }
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+   padding-top: 6%;
+   width: 70%;
+   margin: 0 0;
+    .text {
+
+        h1 {
+        font-size: 82px;
+        color: #28281F;
+        }
+    }
+    .data {
+        h2{
+        font-size: 24px;
+        line-height: 200%;
+        font-weight: 400;
+        color: #28281F;
+    }
+        
+        }
+    }
+
+
+

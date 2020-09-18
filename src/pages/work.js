@@ -1,34 +1,22 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BlogIndex = ({ data, location }) => {
+
+const Work = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Vikas Raj Yadav" />
-        <div className="header">
-        <div className="text">
-          <h1>
-                Product Design,User Experience Motion, and Code 
-          </h1>
-        </div>
-        <div className="data">
-          <h2>
-          Currently at&nbsp;
-           <a href="https://paytm.com/" class="Paytm-link" target="_blank">Paytm</a> to help designers, product managers and engineers collaborate better together.
-          </h2>
-        </div>
-      </div>
+      <SEO title="All posts" />
+      <div>This is our work</div>
     </Layout>
   )
 }
 
-export default BlogIndex
+export default Work
 
 export const pageQuery = graphql`
   query {
