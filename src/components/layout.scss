@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 
-a {
+$color-texts: #101010;
+$color-links: #F96E46;
+
+
+
+
+a{
     text-decoration: none;
-    color: #28281F;
+    color: $color-links;
 }
 
-a:hover {
-    text-decoration: none;
-    color: #F96E46;
-    transition-delay: .25ms;
-  
-}
+
+
+
 
 a.Paytm-link {
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 600;
+
 }
 
     
@@ -43,7 +47,7 @@ body
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
-    color: #28281F;
+    color:$color-texts;
     font-weight: 600;
 }
 
@@ -60,7 +64,7 @@ body
     {
         font-size: 16px;
         font-weight: 400;
-        color: #28281F;
+        color: $color-texts;
     }
 }
 
@@ -77,7 +81,7 @@ body
 
         h1 {
         font-size: 82px;
-        color: #28281F;
+        color: $color-texts;
         }
     }
     .data {
@@ -85,7 +89,7 @@ body
         font-size: 24px;
         line-height: 200%;
         font-weight: 400;
-        color: #28281F;
+        color: $color-texts
     }
         
         }
