@@ -18,7 +18,7 @@ const BlogIndex = ({ data, location }) => {
           </h1>
         </div>
         <div className="data">
-        <h2>Currently I'm a part of the&nbsp;<a href="https://paytm.com/" class="Paytm-link" target="_blank">Paytm</a> design team, helped shipping products like Paytm Postpaid, Credit Score and few features in Travel team. I've very diverse experience working with a startup, a sass company and a design studio.</h2>
+        <h2>Currently I'm a part of the&nbsp;<a href="https://paytm.com/" class="Paytm-link" target="_blank">Paytm</a> design team, helped shipping products like Paytm Postpaid, Credit Score and few features in Travel team.</h2>
         </div>
       </div>
     </Layout>
