@@ -14,14 +14,11 @@ const BlogIndex = ({ data, location }) => {
         <div className="header">
         <div className="text">
           <h1>
-                Product Design,User Experience Motion, and Code 
+          Multidisciplinary designer with a focus on Product Design and Experiences
           </h1>
         </div>
         <div className="data">
-          <h2>
-          Currently at&nbsp;
-           <a href="https://paytm.com/" class="Paytm-link" target="_blank">Paytm</a> to help designers, product managers and engineers collaborate better together.
-          </h2>
+        <h2>Currently I'm a part of the&nbsp;<a href="https://paytm.com/" class="Paytm-link" target="_blank">Paytm</a> design team, helped shipping products like Paytm Postpaid, Credit Score and few features in Travel team. I've very diverse experience working with a startup, a sass company and a design studio.</h2>
         </div>
       </div>
     </Layout>

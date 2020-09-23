@@ -15,7 +15,7 @@ const Nav = () => {
     
         <nav className="nav-styles">
           <h3><a href="https://dribbble.com/Vraj247">Dribbble</a></h3>
-          <h3><a href="https://www.behance.net/vraj247">Behance</a></h3> 
+          <h3><a href="https://www.behance.net/vraj247"><i class="fab fa-github"></i>Behance</a></h3> 
           <h3><a href="https://www.linkedin.com/in/vraj247/">Linkedin</a></h3>
           <h3><a href="https://twitter.com/Vraj247">Twitter</a></h3>
         </nav>
