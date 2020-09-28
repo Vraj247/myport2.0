@@ -3,7 +3,7 @@
 
 $color-texts: #101010;
 $color-links: #F96E46;
-
+$shadow-color: rgba(0, 0, 0, 0.103);
 
 
 
@@ -98,7 +98,8 @@ body
         }
     }
     .data {
-        width: 90%;
+        width: auto;
+        margin-bottom: 160px;
         h2{
         font-size: 24px;
         line-height: 200%;
@@ -108,5 +109,32 @@ body
         
         }
     }
+
+    .projects-container{
+        min-height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: row;
+    }
+
+    .projects-main1{
+        display: flex; 
+        flex-basis: calc(50% - 40px);  
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+    .projects-main2{
+        display: flex; 
+        flex-basis: calc(50% - 40px);  
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+  
 
     

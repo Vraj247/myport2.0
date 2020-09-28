@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Vikas Raj Yadav `,
+    title: `Product Designer `,
     author: {
       name: `Vraj247`,
       summary: `Product Designer from Banglore, India`,
