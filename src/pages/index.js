@@ -25,19 +25,19 @@ const BlogIndex = ({ data, location }) => {
       <div className = "projects-container">
         
           <div className ="projects-main1">
-            <img src="prj1.png" width="706px" height="810px"></img>
+            <img src="/prj1.png" width="706px" height="810px"></img>
           </div>
 
           <div className ="projects-main2">
-          <img src="prj2.png" width="706px" height="810px"></img>
+          <img src="/prj2.png" width="706px" height="810px"></img>
           </div>
 
           <div className ="projects-main1">
-          <img src="prj3.png" width="706px" height="810px"></img>
+          <img src="/prj3.png" width="706px" height="810px"></img>
         </div>
 
         <div className ="projects-main2">
-        <img src="prj4.png" width="706px" height="810px"></img>
+        <img src="/prj4.png" width="706px" height="810px"></img>
         </div>
 
       </div>
