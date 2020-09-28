@@ -13,6 +13,7 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="Vikas Raj Yadav" />
         <div className="header">
         <div className="text">
+
           <h1>
           Multidisciplinary designer with a focus on Product Design and Experiences
           </h1>
@@ -38,12 +39,13 @@ const BlogIndex = ({ data, location }) => {
 
         <div className ="projects-main2">
         <img src="../../prj4.png" width="706px" height="810px"></img>
+        
         </div>
         </div>
 
       <div className ="footer">
         <h4>Design and Develop by @vraj247</h4>
-        <h4>Last updated: 2020</h4>
+      
       </div>
 
 
