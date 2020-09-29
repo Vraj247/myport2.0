@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Nav from "./nav"
 import CSS from "./layout.scss"
 
@@ -14,7 +13,14 @@ const Layout = ({ location, title, children }) => {
      Vikas Raj Yadav
    </h1>
   </div>
+  <div className="right-header">
   <Nav className="nav-style" />
+  <div className="CTA">
+  <a href="mailto:rajyadav247@gmail.com" class="button">Email</a>
+  </div>
+
+  </div>
+  
   </>
 )
  return (

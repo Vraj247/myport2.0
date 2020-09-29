@@ -20,7 +20,7 @@ const BlogIndex = ({ data, location }) => {
         </div>
         <div className="data">
         <h2>Currently I'm a part of the&nbsp;<a href="https://paytm.com/" class="Paytm-link" target="_blank">Paytm</a> design team, helped shipping products like Paytm Postpaid, Credit Score and few features in Paytm Trains. 
-        Before that I have worked in companies like&nbsp;<a href="https://grappus.com/" class="Paytm-link" target="_blank">Grappus</a>&nbsp;and&nbsp;<a href="https://www.proprofs.com/" class="Paytm-link" target="_blank">ProProfs</a></h2>
+        </h2>
         </div>
       </div>
 
@@ -60,7 +60,10 @@ const BlogIndex = ({ data, location }) => {
 
         
       <div className ="footer">
-        <h4>Design and Develop by @vraj247</h4>
+           <div>
+            Copyright @2020¸
+          </div>
+      <h4>Design and Develop by <a href="#"target="_blank">@vraj247</a></h4>
       </div>
 
 
