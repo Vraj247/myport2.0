@@ -114,28 +114,31 @@ body
         min-height: 100%;
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        justify-content: space-between;
         flex-direction: row;
     }
 
-    .projects-main1{
-        display: flex; 
-        flex-basis: calc(50% - 40px);  
-        justify-content: center;
+    .projects-main{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+
+    .projects-container2{
+        margin-top: 24px;
+        margin-bottom: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         flex-direction: column;
-        overflow: hidden;
-        border-radius: 8px;
+    }
+    
+    .projects-hzn{
+        display: flex;
+        flex-wrap: nowrap;
     }
 
-    .projects-main2{
-        display: flex; 
-        flex-basis: calc(50% - 40px);  
-        justify-content: center;
-        flex-direction: column;
-        overflow: hidden;
-        border-radius: 8px;
-    }
-  
+    
 
     .footer {
         margin-top: 60px;

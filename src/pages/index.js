@@ -23,29 +23,44 @@ const BlogIndex = ({ data, location }) => {
         Before that I have worked in companies like&nbsp;<a href="https://grappus.com/" class="Paytm-link" target="_blank">Grappus</a>&nbsp;and&nbsp;<a href="https://www.proprofs.com/" class="Paytm-link" target="_blank">ProProfs</a></h2>
         </div>
       </div>
+
+
       <div className = "projects-container">
         
-          <div className ="projects-main1">
-            <img src="../../prj1.png" width="706px" height="810px"></img>
+          <div className ="projects-main">
+          <img src="../../prj1.png"></img>
           </div>
 
-          <div className ="projects-main2">
-          <img src="../../prj2.png" width="706px" height="810px"></img>
+          <div className ="projects-main">
+          <img src="../../prj2.png"></img>
           </div>
+          
+      </div>
+    
+    <div className="projects-container2">
 
-          <div className ="projects-main1">
-          <img src="../../prj3.png" width="706px" height="810px"></img>
-        </div>
+      <div className= "projects-hzn">
+      <img src="../../big-prj1.png"></img>
+      </div>
 
-        <div className ="projects-main2">
-        <img src="../../prj4.png" width="706px" height="810px"></img>
+    </div>
+
+
+    <div className = "projects-container">
         
-        </div>
+        <div className ="projects-main">
+        <img src="../../prj3.png"></img>
         </div>
 
+        <div className ="projects-main">
+        <img src="../../prj4.png"></img>
+        </div>
+        
+    </div>
+
+        
       <div className ="footer">
         <h4>Design and Develop by @vraj247</h4>
-      
       </div>
 
 
