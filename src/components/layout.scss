@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 
-$color-texts: #101010;
-$color-links: #F96E46;
+$color-texts: #FAFAFF;
+$color-links: #715AFF;
 $shadow-color: rgba(0, 0, 0, 0.103);
 
 
@@ -45,16 +45,18 @@ a.Paytm-link:hover {
 
 body 
 {
-    font-family: 'Inter', sans-serif;
-    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    font-family: "Work Sans", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !important;
+    background-color: #030204;
     margin: 0 auto;
     -webkit-font-smoothing: antialiased;
 }
 
 
 .button {
-    background-color: #F96E46;
-    border: 1px #F96E46;
+    background-color:#715AFF;
+    border: 1px #715AFF;
     border-style: solid;
     color: white;
     padding: 8px 24px;
@@ -70,8 +72,8 @@ body
     }
 
 .button:hover {
-    background-color: #fafafa;
-    border: 1px #F96E46;
+    background-color: #FAFAFF;
+    border: 1px #715AFF;
     border-style: solid;
     padding: 8px 24px;
     border-radius: 4px;
@@ -86,13 +88,34 @@ body
 }
 
 
-.container
-{
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 40px;
-}
+@media only screen and (max-width: 600px) {
+    .container {max-width: 60rem;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .container {max-width: 60rem;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .container {max-width: 60rem;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .container {max-width: 60rem;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .container {max-width: 60rem;}
+  }
 
+  .container{
+      margin: 0 auto;
+      padding: 1rem 1rem;
+  }
 
 .main-title {
     display: flex;
@@ -117,7 +140,7 @@ body
     h3
     {
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 600;
         color: $color-texts;
     }
 }
@@ -126,6 +149,7 @@ body
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0;
 }
 
 
@@ -133,25 +157,27 @@ body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:30%;
+    width:24%;
 }
 
 .header {
    padding-top: 6%;
-   width: 90%;
+   width: 100%;
    margin: 0 0;
     .text {
 
         h1 {
-        font-size: 100px;
+        font-size: 5rem;
         color: $color-texts;
+        line-height: 0.8em;
+        text-transform: uppercase;
         }
     }
     .data {
         width: auto;
         margin-bottom: 160px;
         h2{
-        font-size: 24px;
+        font-size: 1.125rem;
         line-height: 200%;
         font-weight: 400;
         color: $color-texts

@@ -25,46 +25,7 @@ const BlogIndex = ({ data, location }) => {
       </div>
 
 
-      <div className = "projects-container">
-        
-          <div className ="projects-main">
-          <img src="../../prj1.png"></img>
-          </div>
-
-          <div className ="projects-main">
-          <img src="../../prj2.png"></img>
-          </div>
-          
-      </div>
-    
-    <div className="projects-container2">
-
-      <div className= "projects-hzn">
-      <img src="../../big-prj1.png"></img>
-      </div>
-
-    </div>
-
-
-    <div className = "projects-container">
-        
-        <div className ="projects-main">
-        <img src="../../prj3.png"></img>
-        </div>
-
-        <div className ="projects-main">
-        <img src="../../prj4.png"></img>
-        </div>
-        
-    </div>
-
-        
-      <div className ="footer">
-           <div>
-            Copyright @2020¸
-          </div>
-      <h4>Design and Develop by <a href="#"target="_blank">@vraj247</a></h4>
-      </div>
+     
 
 
     </Layout>

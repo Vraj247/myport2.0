@@ -15,10 +15,6 @@ const Layout = ({ location, title, children }) => {
   </div>
   <div className="right-header">
   <Nav className="nav-style" />
-  <div className="CTA">
-  <a href="mailto:rajyadav247@gmail.com" class="button">Email</a>
-  </div>
-
   </div>
   
   </>
