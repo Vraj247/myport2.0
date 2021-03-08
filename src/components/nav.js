@@ -15,8 +15,8 @@ const Nav = () => {
     
         <nav className="nav-styles">
           <h3><a href="https://www.linkedin.com/in/vraj247/" target="_blank" rel="noopener noreferrer">Linkedin</a></h3>
-          <h3><a href="https://dribbble.com/Vraj247" target="_blank" rel="noopener noreferrer" >About</a></h3> 
-          <h3><a href="https://twitter.com/Vraj247" target="_blank" rel="noopener noreferrer">Resume</a></h3>
+          <h3><a href="https://dribbble.com/Vraj247" target="_blank" rel="noopener noreferrer" >Dribbble</a></h3> 
+          <h3><a href="https://twitter.com/Vraj247" target="_blank" rel="noopener noreferrer">Twitter</a></h3>
         </nav>
       
   )
