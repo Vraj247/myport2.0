@@ -167,11 +167,12 @@ body
     .text {
 
         h1 {
-        font-size: 5rem;
+        font-size: 3rem;
         background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         color: $color-texts;
+        font-weight: 300;
         line-height: 0.8em;
         text-transform: uppercase;
         }
