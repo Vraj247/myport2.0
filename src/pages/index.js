@@ -19,7 +19,7 @@ const BlogIndex = ({ data, location }) => {
           </h1>
         </div>
         <div className="data">
-        <h2>Currently I'm a part of the&nbsp;<a href="https://paytm.com/" class="Paytm-link" target="_blank">Paytm</a> design team, helped shipping products like Paytm Postpaid, Credit Score and few features in Paytm Trains. 
+        <h2>I’m a Product Designer Living in Lucknow, India. Currently working remotely for <a>Paytm</a>
         </h2>
         </div>
       </div>
