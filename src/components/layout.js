@@ -10,7 +10,6 @@ const Layout = ({ location, title, children }) => {
   <div>
     <h1 className = "main-title">
     <img src="/favicon-32x32.png" width="32" height="32"></img>
-     Vikas Raj Yadav
    </h1>
   </div>
   <div className="right-header">

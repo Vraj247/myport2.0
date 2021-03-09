@@ -15,7 +15,7 @@ const BlogIndex = ({ data, location }) => {
         <div className="text">
 
           <h1>
-          Multidisciplinary designer with a focus on Product Design and Experiences
+          Hello, I'm Vikas Raj Yadav
           </h1>
         </div>
         <div className="data">
